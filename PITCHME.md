@@ -9,18 +9,22 @@
 
 #HSLIDE
 ## Major Language Elements
-- Hello, World!
-- Variables and Types
-- Lists
-- Basic Operators
-- String Formatting
-- Basic String Operations
-- Dictionaries, Sets, and Iterables
-- Modules and Reusable code
+* Hello, World!
+* Variables and Types
+* Lists
+* Basic Operators
+* String Formatting
+* Basic String Operations
+* Dictionaries, Sets, and Iterables
+* Modules and Reusable code
 
 #HSLIDE
 ## What is Python?
 
+https://i.imgur.com/iymgGZV.jpg>
+
+#HSLIDE
+## What is Python?
 * Interpreted language (JIT compilation)
 * Uses the virtual machine model
 The basic idea is that we have a python *process*, which sits and waits for instructions/compiled binary code (aka a virtual machine).
@@ -32,7 +36,12 @@ A huge benefit of python is that it is both an interface (shell) and program int
 >>>
 ```
 This is the prompt.  It means we are running code in an interpreter, instead of running a script.
-
+```python
+>>> 1 + 1
+2
+>>> m = 1
+>>> m + 1
+```
 #HSLIDE
 ## What is Python?
 

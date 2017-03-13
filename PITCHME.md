@@ -21,7 +21,7 @@
 #HSLIDE
 ## What is Python?
 
-https://i.imgur.com/iymgGZV.jpg>
+<img src=https://i.imgur.com/iymgGZV.jpg>
 
 #HSLIDE
 ## What is Python?

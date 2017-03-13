@@ -26,6 +26,14 @@
 The basic idea is that we have a python *process*, which sits and waits for instructions/compiled binary code (aka a virtual machine).
 
 #HSLIDE
+## Interpreter: Real Time vs. scripting
+A huge benefit of python is that it is both an interface (shell) and program interpreter.
+```python
+>>>
+```
+This is the prompt.  It means we are running code in an interpreter, instead of running a script.
+
+#HSLIDE
 ## What is Python?
 
 HelloWorld.py
@@ -200,11 +208,11 @@ False
 ```
 >>> listE[0] = "Iron Maiden"
 >>> listE
-['Iron Maiden', 3, False]
+['Iron Maiden', 3]
 >>>
 ```
 #HSLIDE
-## ```list``` has some awesome methods!
+## `list` has some awesome methods!
 Remember, any list is an instance of the List class.
 Learning Python is a process of collecting memories of all these methods, and connecting them to problems.
 ##  Check the Docs alot!
@@ -226,15 +234,27 @@ Learning Python is a process of collecting memories of all these methods, and co
 ```
 #HSLIDE
 ## More common ```list``` methods and functions
+```python
+>>> #Appended list
+>>> listF = ["Oh NO!", "This is too much!", True]
+>>> listEF = listE + ListF
+>>> listEF
+['Iron Maiden', 3, False, 'this String', 'Oh NO!', 'This is too much!', True
+>>>
+```
+#HSLIDE
+## Statements
+### Assignment `=`
+We recall:
+1.  All python things are objects.
+2.  All objects have classes - that is, **they are an instance of a class.**
+  + Python has two fundamental flavors of objects.  Mutable and immutable.
 
 
 #HSLIDE
 ## Statements
 ### Assignment `=`
-- We recall:
-1.  All python things are objects.
-2.  All objects have classes - that is, **they are an instance of a class.**
-  + Python has two fundamental flavors of objects.  Mutable and immutable.
+Mutable Objects:
   + Mutable objects can be changed in place, immutable cannot.
   + When we 'change' immutable objects, we are really re-building that object and transferring the symbol name to that object.
 
@@ -248,7 +268,12 @@ Learning Python is a process of collecting memories of all these methods, and co
   + Different than other C-style languages (C, Java, C++, etc).
   + Assignment in C, e.g., `x = 2`, translates to "typed variable name x receives a copy of numeric value 2".  
 
-  The memory for this element (determined by data type and width) is allocated, the data are copied over, and the *variable name* is an alias or symbolic address for that memory location.  Therefore, pointers, addresses, referencing, de-referencing, and pointer arithmetic.
+#HSLIDE
+## Assignemnt: A Subtlety - C/Java vs. Python
+1. The memory for this element (determined by data type and width) is allocated,
+2. the data are copied over,
+3. and the *variable name* is an alias or symbolic address for that memory location.  
+4. Therefore, pointers, addresses, referencing, de-referencing, and pointer arithmetic.
 
 #HSLIDE
 ## Statements

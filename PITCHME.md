@@ -32,7 +32,14 @@ The basic idea is that we have a python *process*, which sits and waits for comp
 We also have an *interpreter*, which makes byte-code from our insructions.
 
 #HSLIDE
-## Interpreter: Real Time vs. scripting
+## Python.org and the Python Tutorial
+The tutorial is fantastic.  It is how I learned Python.
+
+<a href="https://docs.python.org/2/tutorial/">Python Tutorial on Python.org</a>
+<a href="https://www.reddit.com/r/python">A Fantastic Community and Group of Resources</a>
+
+#HSLIDE
+## Interpreter: Real Time vs. Scripting
 A huge benefit of python is that it is both an interface (shell) and program interpreter.
 ```python
 >>>
@@ -43,6 +50,7 @@ This is the prompt.  It means we are running code in an interpreter, instead of 
 2
 >>> m = 1
 >>> m + 1
+2
 ```
 #HSLIDE
 ## What is Python?

@@ -136,15 +136,19 @@ helloWorld()
 2. Interpreter sees the `def` keyword - this means that the next line will standardize indent size for this code block.
 3. So it keeps reading until it gets to the bottom of the code block (indents back).
 4. At that point, it compiles an object (everything is an object) that is a function.
+
 #HSLIDE
 ### What is evaluation?
 5. It then continues along until it gets to the call to that function, on the first column.
 6. The call matches the object name, so any arguments in the parenthesis are passed to the object.
 7. The function is evaluated with the input data, if any.
+
 #HSLIDE
 ### What is evaluation?
 8. Anything returned by the function (with the `return` keyword) is handed back to the calling block.
-9. If there is an assignement, e.g. `output = thisFunction(input)`, the LHS variable is mapped to the object in memory.
+9. If there is an assignement, e.g.
+`output = thisFunction(input)`,
+ the LHS variable is mapped to the object in memory.
 10. Otherwise, if there is no assignement, anything returned goes to standard out.
 
 #HSLIDE

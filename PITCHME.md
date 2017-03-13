@@ -27,7 +27,8 @@
 ## What is Python?
 * Interpreted language (JIT compilation)
 * Uses the virtual machine model
-The basic idea is that we have a python *process*, which sits and waits for instructions/compiled binary code (aka a virtual machine).
+The basic idea is that we have a python *process*, which sits and waits for compiled binary code/byte-code (aka a virtual machine).
+We also have an *interpreter*, which makes byte-code from our insructions.
 
 #HSLIDE
 ## Interpreter: Real Time vs. scripting

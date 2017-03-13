@@ -2,6 +2,7 @@
 <img src="http://www.cakex.org/sites/default/files/National_Conservation_Training_Center.gif" width="200">
 <img src="https://www.python.org/static/img/python-logo.png" width="400">
 #### Python for Advanced GIS
+#### NCTC CSP7300
 <br>
 <span style="color:gray">NCTC Advanced GIS</span>
 <br>
@@ -256,8 +257,11 @@ Learning Python is a process of collecting memories of all these methods, and co
 ## Statements
 ### Assignment `=`
 We recall:
+
 1.  All python things are objects.
+
 2.  All objects have classes - that is, **they are an instance of a class.**
+
   + Python has two fundamental flavors of objects.  Mutable and immutable.
 
 
@@ -298,9 +302,9 @@ Mutable Objects:
  To be technical - they aren't variables.  They are names bound to objects.
 
  Names may be subsequently rebound at any time to objects of greatly varying types...
- -strings,
- -procedures,
- -complex objects with data and methods, etc.
+ * strings,
+ * procedures,
+ * complex objects with data and methods, etc.
 
 #HSLIDE
 ### Assignment

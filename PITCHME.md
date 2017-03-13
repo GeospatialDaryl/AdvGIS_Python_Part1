@@ -168,3 +168,121 @@ output = helloWorld(1+1)  # equivalent to helloWorld(1L+1L)
 ```
 #HSLIDE
 ##
+
+#HSLIDE
+## Lists and Iterators
+Lists are one of the most common data structures in Python.
+* Compound data type
+* make on with square brackets ```listNum = [1,2,3]``` or empty ```listE = []```
+* lists are **mutable**
+
+#HSLIDE
+## List Indexing
+Call it by it's position, 0-index.
+```python
+>>> listE = ["abba", 3, False]
+>>> listE[0]
+'abba'
+>>> listE[-1]
+False
+>>> listE[0:1]
+['abba']
+>>> listE[0:2]
+['abba', 3]
+>>>
+```
+#HSLIDE
+## List Indexing and Mutability
+```
+>>> listE[0] = "Iron Maiden"
+>>> listE
+['Iron Maiden', 3, False]
+>>>
+```
+#HSLIDE
+## ```list``` has some awesome methods!
+Remember, any list is an instance of the List class.
+Learning Python is a process of collecting memories of all these methods, and connecting them to problems.
+##  Check the Docs alot!
+
+#HSLIDE
+## Commonly Used Methods
+```python
+>>> listE.append("this String")
+>>> listE
+['Iron Maiden', 3, False, 'this String']
+>>> len(listE)
+4
+>>> #Nested list
+>>> listF = ["Oh NO!", "This is too much!", True]
+>>> listE.append(listF)
+>>> listE
+['Iron Maiden', 3, False, 'this String', ['Oh NO!', 'This is too much!', True]]
+>>>
+```
+#HSLIDE
+## More common ```list``` methods and functions
+
+
+#HSLIDE
+## Statements
+### Assignment `=`
+- We recall:
+1.  All python things are objects.
+2.  All objects have classes - that is, **they are an instance of a class.**
+  + Python has two fundamental flavors of objects.  Mutable and immutable.
+  + Mutable objects can be changed in place, immutable cannot.
+  + When we 'change' immutable objects, we are really re-building that object and transferring the symbol name to that object.
+
+#HSLIDE
+## Assignment
+<img src="https://i.stack.imgur.com/M3iZD.png">
+
+#HSLIDE
+##  Assignment
+3. Assignment (token `=`, the equals sign).
+  + Different than other C-style languages (C, Java, C++, etc).
+  + Assignment in C, e.g., `x = 2`, translates to "typed variable name x receives a copy of numeric value 2".  
+
+  The memory for this element (determined by data type and width) is allocated, the data are copied over, and the *variable name* is an alias or symbolic address for that memory location.  Therefore, pointers, addresses, referencing, de-referencing, and pointer arithmetic.
+
+#HSLIDE
+## Statements
+### Assignment *=* ... in Python
+- ```x = 2``` - *in Python* - means:
+"(generic) name x receives a reference to a separate, dynamically allocated object of numeric (int) type of value 2."
+<img src="http://archive.oreilly.com/oreillyschool/courses/Python1/images/lessons/ModuleVsObjectSpace.jpg">
+***This is termed binding the name to the object.***
+
+#HSLIDE
+### Assignment
+ To be technical - they aren't variables.  They are names bound to objects.
+
+ Names may be subsequently rebound at any time to objects of greatly varying types...
+ -strings,
+ -procedures,
+ -complex objects with data and methods, etc.
+
+#HSLIDE
+### Assignment
+OK - what happens?
+
+`x = 2; y = 2; z = 2`
+
+#HSLIDE
+### Assignment
+`x = 2; y = 2; z = 2`
+three names and one numeric object,
+to which all three names are bound.
+
+#HSLIDE
+### Assignement
+Since a name is a generic reference holder it is unreasonable to associate a fixed data type with it.
+However at a given time a name will be bound to some object, which will have a type;
+***thus there is dynamic typing.***
+
+#HSLIDE
+### Assignment
+Since it is just a name, pick a good one.  While you can do all of the above, why not?
+Well, there are very good (and very advanced) reasons to do this... object polymorphism, for one.
+Class inheritance and class hierarchies, another.

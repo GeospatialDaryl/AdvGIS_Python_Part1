@@ -36,6 +36,7 @@ We also have an *interpreter*, which makes byte-code from our insructions.
 The tutorial is fantastic.  It is how I learned Python.
 
 <a href="https://docs.python.org/2/tutorial/">Python Tutorial on Python.org</a>
+
 <a href="https://www.reddit.com/r/python">A Fantastic Community and Group of Resources</a>
 
 #HSLIDE
@@ -174,7 +175,9 @@ helloWorld()
 ### What is evaluation?
 8. Anything returned by the function (with the `return` keyword) is handed back to the calling block.
 9. If there is an assignement, e.g.
+
 `output = thisFunction(input)`,
+
  the LHS variable is mapped to the object in memory.
 10. Otherwise, if there is no assignement, anything returned goes to standard out.
 
@@ -227,7 +230,7 @@ False
 ```
 >>> listE[0] = "Iron Maiden"
 >>> listE
-['Iron Maiden', 3]
+['Iron Maiden', 3, False]
 >>>
 ```
 #HSLIDE

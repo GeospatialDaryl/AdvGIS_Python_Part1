@@ -9,6 +9,14 @@
 <span style="color:gray">Daryl Van Dyke</span>
 
 #HSLIDE
+#### Python for Advanced GIS
+#### NCTC CSP7300
+<br>
+<span style="color:gray">https://github.com/GeospatialDaryl/AdvGIS_Python_Part1</span>
+<br>
+<span style="color:gray">https://gitpitch.com/GeospatialDaryl/AdvGIS_Python_Part1</span>
+
+#HSLIDE
 ## Major Language Elements
 * Hello, World!
 * Variables and Types
@@ -55,7 +63,7 @@ False
 >>> listF = ["Oh NO!", "This is too much!", True]
 >>> listEF = listE + ListF
 >>> listEF
-['Iron Maiden', 3, False, 'this String', 'Oh NO!', 'This is too much!', True
+['Iron Maiden', 3, False, 'this String', 'Oh NO!', 'This is too much!', True]
 >>>
 ```
 #HSLIDE
